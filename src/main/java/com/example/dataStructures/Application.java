@@ -16,15 +16,15 @@ public class Application {
         return dt.testHashSet(students);
     }
 
-    public void testStack() {
-        dt.testStack();
+    public Student testStack(List<Student> students) {
+        return dt.testStack(students);
     }
 
-    public void testQueue() {
-        dt.testQueue();
+    public Student testQueue(List<Student> students) {
+        return dt.testQueue(students);
     }
 
-    public void testTreeMap() {
-        dt.testTreeMap();
+    public Map<Student, Integer> testTreeMap(List<Student> students) {
+        return dt.testTreeMap(students);
     }
 }

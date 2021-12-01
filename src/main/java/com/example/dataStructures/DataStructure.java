@@ -9,7 +9,8 @@ import java.util.Set;
 public interface DataStructure {
     Map<String, Long> testHashMap(List<String> names);
     Set<Student> testHashSet(List<Student> students);
-    void testStack();
-    void testQueue ();
-    void testTreeMap();
+    Student testStack(List<Student> students);
+    Student testQueue (List<Student> students);
+    Map<Student, Integer> testTreeMap(List<Student> students);
+    // Sorted structure
 }
